@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .container{
+            border: 5px black solid;
+            background-color: yellow;
+            padding: 40px;
+            display:  flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: row;
+            flex-wrap: wrap;
+          min-height: 600px;
+            row-gap: 20px;
+            column-gap: 90px;
+            /* flex direction reverse colum means arrange in reverse order 4,3,2,1 in topp to bottom */
+
+
+        }
+        .item{
+            background-color: whitesmoke;
+            border: 2px black solid;
+            height: 10px;
+            width:20px;
+            margin: 20px;
+            text-align: center;
+            padding: 20px;
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+        
+        img{
+            width: 80px;
+            /* object-fit:fill; */
+            height:auto;
+
+
+        }
+
+        #i3{
+            display: flex;
+            flex-grow: 5;
+            flex-shrink: 1;
+            align-self: flex-start;
+            margin-right: auto;
+
+        }
+
+    </style>
+    <div class="container">
+        <div class="item"><img src="" alt="">Item 1</div>
+        <div class="item"><img src="" alt="">Item 2</div>
+        <div class="item" id="i3">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+         <!-- <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div> -->
+        <!-- <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div> --> 
+
+    </div>
+</body>
+</html>
